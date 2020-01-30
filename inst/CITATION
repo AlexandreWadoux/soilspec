@@ -3,7 +3,7 @@ note <- sprintf("R package version %s", meta$Version)
 
 bibentry(bibtype = "Manual",
          title = "{soilspec}: Functions and data for the book 'Soil Spectral Inference: A Workbook With R'.",
-         author = c(person("Alexander", "Wadoux"),
+         author = c(person("Alexandre M.J.-C.", "Wadoux"),
                     person("Edward", "Jones"),
                     person("Brendan", "Malone"),
                     person("Budiman", "Minasny"),
