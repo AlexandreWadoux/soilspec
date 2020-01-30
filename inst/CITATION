@@ -10,6 +10,6 @@ bibentry(bibtype = "Manual",
                     person("Mario", "Fajardo"),
                     person("Alex", "McBratney")),
          year = 2020,
-         note = '...',
-         url = "")
+         note = {R package version 0.1.0},
+         url = {https://github.com/AlexandreWadoux/soilspec/})
 
