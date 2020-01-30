@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "rgb", "chull")
+importFrom("graphics", "axis", "image", "layout", "par")
+importFrom("stats", "sortedXyData", "approx")
+importFrom("stats", "bw.nrd0", "density")
+importFrom("utils", "read.table", "write.table")
+import("clhs", 'clhs')
