@@ -1,4 +1,4 @@
-#' @title css_function
+#' @title cssfunction
 #'
 #' @description Assesing the adequate calibration set size for infrared spectroscopy
 #'
