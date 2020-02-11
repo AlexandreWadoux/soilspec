@@ -1,4 +1,4 @@
-#' @title chBLC_ext
+#' @title chBLCext
 #'
 #' @description Fitting a Convex hull function for regions of interest
 #'
@@ -9,7 +9,7 @@
 #' @export
 
 #Convex hull function used for regions of interest work such as detecting secondary clay minerals from vis-NIR spectra
-chBLC_ext <- function(spectra, lower, upper, ...){
+chBLCext <- function(spectra, lower, upper, ...){
   interval <- c(1:ncol(spectra))
   hullSpectra <- matrix(NA, ncol = ncol(spectra), nrow = nrow(spectra))
   tempSpect = as.matrix(spectra)
