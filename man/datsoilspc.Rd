@@ -5,7 +5,7 @@
 data('datsoilspc')
 }
 \description{
-Extract of Geeves dataset including 391 observations in the NIR region with 5 soil attributes
+Extract of Geeves dataset including 391 observations in the NIR region with 4 soil attributes
 
 \itemize{
    \item{clay: Clay content in percent}
