@@ -5,7 +5,8 @@
 data('datsoilspc')
 }
 \description{
-Extract of Geeves dataset including 391 observations in the NIR region with 4 soil attributes
+
+Extract from data published by Geeves et al. (1994), The original dataset consists of 72 soil profiles, and a total of 424 soil samples from different depths in the wheat-belt of southern NSW and northern Victoria, Australia. The clay mineral fractions are mostly dominated by illite and kaolinite minerals. This dataset contains 391 observations in the NIR region with 4 measured soil attributes.
 
 \itemize{
    \item{clay: Clay content in percent}
