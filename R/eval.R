@@ -56,7 +56,7 @@ eval <- function(obs, pred, obj){
     rpiq <- round((iqDist/RMSE), digits = 2)
 
     # return the results
-    evalRes <- data.frame(ME = ME, RMSE = RMSE, r2 = r2, R2 = R2, RPD = RPD, RPIQ = rpiq)
+    evalRes <- data.frame(ME = ME, RMSE = RMSE, r2 = r2, R2 = R2, rhoC = rhoC, RPD = RPD, RPIQ = rpiq)
   }
   if (obj =='cat'){
 
