@@ -1,21 +1,23 @@
 \name{datsoilspc}
 \alias{datsoilspc}
-\title{VIS-Nir data from Geeves Dataset}
+\title{Geeves dataset}
 \usage{
 data('datsoilspc')
 }
 \description{
 
-Extract from data published by Geeves et al. (1994), The original dataset consists of 72 soil profiles, and a total of 424 soil samples from different depths in the wheat-belt of southern NSW and northern Victoria, Australia. The clay mineral fractions are mostly dominated by illite and kaolinite minerals. This dataset contains 391 observations in the NIR region with 4 measured soil attributes.
+The Geeves dataset (Geeves et al., 1994) is a soil survey containing 391 soil samples collected in the wheatbelt of southern New South Wales and northern Victoria, Australia. The reflectance infrared spectra was obtained in the range 350-2500 nm at 1 nm resolution using an AgriSpec instrument with a contact probe (Analytical Spectral Devices, Boulder, Colorado, USA). A spectralon (Labsphere Inc., North Sutton, N.H., USA) was used as reflectance standard. Each spectrum in the dataset is a wavelength-average of 40 scans.
 
-\itemize{
-   \item{clay: Clay content in percent}
-   \item{silt: Silt content in percent}
-   \item{sand: Sand content in percent}
-   \item{TotalCarbon: Total carbon content in percent}
+Total carbon (TC), clay, silt and sand were analysed in the laboratory using standard methods. TC was analysed by the dry-combustion method and is reported in $\mathrm{g~100~g}^{-1}$. The values of the SOC range from XX to XX $\mathrm{g~100~g}^{-1}$. The TC does not contain inorganic carbon. The hydrometer method was used for the particle size distribution and their relative quantity was converted to percent. Clay content varies from 5 to 74%, silt content from 2 to 54% and sand content from 14 to 91%.
+   \itemize{
+   \item{clay: Clay content (%)}
+   \item{silt: Silt content (%)}
+   \item{sand: Sand content (%)}
+   \item{TotalCarbon: Total carbon ($\mathrm{g~100~g}^{-1}$.)}
+   \item{spc: Table of size 391 $\times$ 2191 with vis-NIR spectra. Each row is a spectra.}   
 }}
 \references{
-Geeves, G. W. "physical, chemical and morphological properties of soils in the wheat-belt of southern NSW and northern Victoria." (1994).
+Geeves GW, Cresswell HP, Murphy BW, Gessler PI, Chartres CJ, Little IP, Bowman GM (1994) Physical, chemical and morphological properties of soils in the wheat-belt of southern NSW and northern Victoria. NSW Department of Conservation; Land Management/CSIRO Division of Soils Occasional Report, CSIRO, Australia
 }
 \examples{
 data('datsoilspc')
