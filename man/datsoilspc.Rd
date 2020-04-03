@@ -10,10 +10,10 @@ The Geeves dataset (Geeves et al., 1994) is a soil survey containing 391 soil sa
 
 Total carbon (TC), clay, silt and sand were analysed in the laboratory using standard methods. TC was analysed by the dry-combustion method and is reported in g 100 g-1. The values of the TC range from 0.6 to 12.74 g 100 g-1. The TC does not contain inorganic carbon. The hydrometer method was used for the particle size distribution and their relative quantity was converted to percent. Clay content varies from 5 to 74\%, silt content from 2 to 54\% and sand content from 14 to 91\%.
 \itemize{
-   \item{\bold{clay}: Clay content (\%)}
-   \item{\bold{silt}: Silt content (\%)}
-   \item{\bold{sand}: Sand content (\%)}
-   \item{\bold{TotalCarbon}: Total carbon g 100 g-1}
+   \item{\bold{clay}: Clay content (\%).}
+   \item{\bold{silt}: Silt content (\%).}
+   \item{\bold{sand}: Sand content (\%).}
+   \item{\bold{TotalCarbon}: Total carbon g 100 g-1.}
    \item{\bold{spc}: Table of size 391 by 2191 with vis-NIR spectra. Each row is a spectra.}
 }
 }
