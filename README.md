@@ -1,4 +1,4 @@
-<a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="left" height="450" width="850" ></a>
+<a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="center" height="450" width="850" ></a>
 
 # Soil Spectral Inference with R
 
