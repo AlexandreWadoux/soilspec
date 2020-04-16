@@ -2,9 +2,8 @@ year <- 2020
 note <- sprintf("R package version %s", meta$Version)
 
 bibentry(bibtype = "Manual",
-         title = "{soilspec}: Functions and data for the book 'Soil Spectral Inference: A Workbook With R'.",
+         title = "{soilspec}: Functions and data for the book 'Soil Spectral Inference with R'.",
          author = c(person("Alexandre M.J.-C.", "Wadoux"),
-                    person("Edward", "Jones"),
                     person("Brendan", "Malone"),
                     person("Budiman", "Minasny"),
                     person("Mario", "Fajardo"),
