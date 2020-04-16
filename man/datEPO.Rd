@@ -20,7 +20,7 @@ Subset of the Geeves soil survey data in which the soil samples were scanned at 
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
 }
 \references{
-Minasny, Budiman, et al. "Removing the effect of soil moisture from NIR diffuse reflectance spectra for the prediction of soil organic carbon." Geoderma 167 (2011): 118-124.}
+Minasny, B. et al. (2011) Removing the effect of soil moisture from NIR diffuse reflectance spectra for the prediction of soil organic carbon. Geoderma, 167, 118-124.}
 \examples{
 data(datEPO)
 
