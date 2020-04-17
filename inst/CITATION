@@ -5,13 +5,13 @@ vers <- paste("R package version", meta$Version)
      
 citEntry(entry="Manual",
   title = "soilspec: functions and data for the book Soil Spectral Inference with R",
-  author = personList(as.person(Alexandre M.J.C., Wadoux)),
+  author = personList(as.person(Alexandre M.J.C. Wadoux)),
   publication = "R package",
   year = year,
   note = vers,
 
   textVersion =
-  paste("Alexandre M.J.C., Wadoux (",
+  paste("Alexandre M.J.C. Wadoux (",
         year,
         "). soilspec: functions and data for the book Soil Spectral Inference with R ",
         vers, ".", sep=""))
