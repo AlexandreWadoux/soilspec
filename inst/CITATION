@@ -1,14 +1,17 @@
-year <- 2020
-note <- sprintf("R package version %s", meta$Version)
+citHeader("To cite package 'soilspec' in publications use:")
+     
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+     
+citEntry(entry="Manual",
+  title = "soilspec: Functions and data for the book Soil Spectral Inference with R",
+  author = personList(as.person(Alexandre M.J.-C., Wadoux)),
+  publication = "R package",
+  year = year,
+  note = vers,
 
-bibentry(bibtype = "Manual",
-         title = "{soilspec}: Functions and data for the book 'Soil Spectral Inference with R'.",
-         author = c(person("Alexandre M.J.-C.", "Wadoux"),
-                    person("Brendan", "Malone"),
-                    person("Budiman", "Minasny"),
-                    person("Mario", "Fajardo"),
-                    person("Alex", "McBratney")),
-         year = 2020,
-         note = {R package version 0.1.0},
-         url = {https://github.com/AlexandreWadoux/soilspec/})
-
+  textVersion =
+  paste("Alexandre M.J.-C., Wadoux (",
+        year,
+        "). soilspec: Functions and data for the book Soil Spectral Inference with R ",
+        vers, ".", sep=""))
