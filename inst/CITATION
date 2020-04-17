@@ -14,4 +14,4 @@ citEntry(entry="Manual",
   paste("Alexandre MJC Wadoux (",
         year,
         "). soilspec: functions and data for the book Soil Spectral Inference with R",
-        vers, ".", sep=", "))
+        vers, ".", sep=""))
