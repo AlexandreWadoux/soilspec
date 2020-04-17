@@ -1,4 +1,10 @@
-<a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="center" height="450" width="850" ></a>
+![version](https://img.shields.io/badge/version-0.1.0-blue)
+[![HitCount](http://hits.dwyl.com/{AlexandreWadoux}/{soilspec}.svg)](http://hits.dwyl.com/{AlexandreWadoux}/{soilspec})
+[![Project Status: Active The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+![minimal R version](https://img.shields.io/badge/R%3E%3D-3.2.4-6666ff.svg)
+
+
+<a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="center" height="450" width="900" ></a>
 
 # Soil Spectral Inference with R
 
