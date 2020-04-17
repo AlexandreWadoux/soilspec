@@ -2,7 +2,7 @@
 [![HitCount](http://hits.dwyl.com/{AlexandreWadoux}/{soilspec}.svg)](http://hits.dwyl.com/{AlexandreWadoux}/{soilspec})
 [![Project Status: Active The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 ![minimal R version](https://img.shields.io/badge/R%3E%3D-3.2.4-6666ff.svg)
-
+[![CRANstatus](https://www.r-pkg.org/badges/version/soilspec)](https://cran.r-project.org/package=soilspec)
 
 <a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="centre" height="450" width="900" ></a>
 
