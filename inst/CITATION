@@ -1,7 +1,7 @@
 citHeader("To cite package 'soilspec' in publications use:")
      
-year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
-vers <- 2020
+year <- 2020
+vers <- paste("R package version", meta$Version)
      
 citEntry(entry="Manual",
   title = "soilspec: functions and data for the book Soil Spectral Inference with R",
