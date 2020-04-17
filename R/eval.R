@@ -52,8 +52,8 @@ eval <- function(obs, pred, obj){
     q25 <- as.numeric(quantile(obs)[2])
     q75 <- as.numeric(quantile(obs)[4])
     iqDist <- q75 - q25
-    RMSE <- sqrt(mean((pred - obs)^2))
-    rpiq <- round((iqDist/RMSE), digits = 2)
+    RMSE2 <- sqrt(mean((pred - obs)^2))
+    rpiq <- round((iqDist/RMSE2), digits = 2)
 
     # return the results
     evalRes <- data.frame(ME = ME, RMSE = RMSE, r2 = r2, R2 = R2, rhoC = rhoC, RPD = RPD, RPIQ = rpiq)
