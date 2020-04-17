@@ -36,7 +36,7 @@
 * `specSoilCol`: Small set of vis-NIR spectra with value of the soil horizon and soil type. In addition to the spectra, pictures of the soil samples were made and provided in the book. This enables the comparison of the colour retrieved from the spectra and that from the picture of the soil samples. The documentation is provided in `?soilspec::specSoilCol`. 
 
 ## Installation
-The `soilspec` package is available in this GitHub repository only. The package is likely to be updated in the future. It is reccomended to re-install the package is you didn't use it for a long time. If any issue, send an email to [Alexandre Wadoux](mailto:alexandre.wadoux@sydney.edu.au) or open an [issue](https://github.com/AlexandreWadoux/soilspec/issues). 
+The `soilspec` package is available in this GitHub repository only. The package is likely to be updated in the future. It is recommended to re-install the package is you didn't use it for a long time. If any issue, send an email to [Alexandre Wadoux](mailto:alexandre.wadoux@sydney.edu.au) or open an [issue](https://github.com/AlexandreWadoux/soilspec/issues). 
 
 The package is installed using the following command. 
 ```R
