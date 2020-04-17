@@ -4,7 +4,7 @@
 ![minimal R version](https://img.shields.io/badge/R%3E%3D-3.2.4-6666ff.svg)
 
 
-<a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="center" height="450" width="900" ></a>
+<a href="url"><img src="https://github.com/AlexandreWadoux/soilspec/blob/master/drawing.png" align="centre" height="450" width="900" ></a>
 
 # Soil Spectral Inference with R
 
