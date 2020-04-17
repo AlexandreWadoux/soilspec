@@ -11,7 +11,7 @@ citEntry(entry="Manual",
   note = vers,
 
   textVersion =
-  paste("Alexandre M.J.C. Wadoux (",
+  paste("Alexandre MJC Wadoux (",
         year,
         "). soilspec: functions and data for the book Soil Spectral Inference with R ",
         vers, ".", sep=""))
