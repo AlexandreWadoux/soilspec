@@ -2,16 +2,17 @@
 \alias{chBLCext}
 \title{Convex hull function used for regions of interest}
 \usage{
-chBLCext(spectra, lower, upper, ...)
+chBLCext(spectra, lower, upper, type, ...)
 }
 \arguments{
-  \item{spectra}{Pre-processed spectra (not trimmed).}
+  \item{spectra}{Pre-processed spectrum (not trimmed). Only one spectrum can be provided.}
   \item{lower}{Lower limit of the region of interest.}
   \item{upper}{Upper limit of the region of interest.}
+  \item{type}{Either 'A' of the spectrum is in absorbance, or 'R' if the spectrum is in reflectance.}
   \item{...}{Additional arguments to be passed to the function.}
 }
 \description{
-This function fits a convex hull to the region of interest. The regions of interest are absorbance (or reflectance) of some secondary clay minerals or iron oxides from vis-NIR spectra.}
+This function fits a convex hull to the region of interest. The regions of interest are absorbance (or reflectance) of some secondary clay minerals or iron oxides from vis-NIR spectra. Only one spectrum can be provided, not a spectra table.}
 \references{
 Malone, B. P., Hughes, P., McBratney, A. B., & Minasny, B. (2014). A model for the identification of terrons in the Lower Hunter Valley, Australia. Geoderma Regional, 1, 31-47.
 }
@@ -60,7 +61,7 @@ upper <- 2267
 # spectrum trimming
 montDiog1 <- trimSpec(montRef,
                        wavlimits = range(lower:upper))
-montDiog1CR <- chBLCExt(spectra = montDiog1, lower = lower, upper = upper)
+montDiog1CR <- chBLCExt(spectra = montDiog1, lower = lower, upper = upper, type = 'R')
 
 # plot the region of interest and the fitted convex hull to the continuum removed spectra
 plot(seq(from = lower, to = upper, by = 1), montDiog1[1,],
