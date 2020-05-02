@@ -5,17 +5,17 @@
 chBLCext(spectra, lower, upper, type, ...)
 }
 \arguments{
-  \item{spectra}{Pre-processed spectrum (not trimmed). Only one spectrum can be provided.}
-  \item{lower}{Lower limit of the region of interest.}
-  \item{upper}{Upper limit of the region of interest.}
+  \item{spectra}{Pre-processed spectrum for the region of interest. Only one spectrum can be provided.}
   \item{type}{Either 'A' of the spectrum is in absorbance, or 'R' if the spectrum is in reflectance.}
+  \item{wav}{Vector numeric containing the wavelengths the of \code{spectra} argument.}
+
   \item{...}{Additional arguments to be passed to the function.}
 }
 \description{
-This function fits a convex hull to the region of interest. The regions of interest are absorbance (or reflectance) of some secondary clay minerals or iron oxides from vis-NIR spectra. Only one spectrum can be provided, not a spectra table.}
+This function fits a convex hull to the region of interest. The regions of interest are reflectance of absorbance of some secondary clay minerals or iron oxides from vis-NIR spectra. Only one spectrum can be provided, not a spectra table.}
 \references{
-Malone, B. P., Hughes, P., McBratney, A. B., & Minasny, B. (2014). A model for the identification of terrons in the Lower Hunter Valley, Australia. Geoderma Regional, 1, 31-47.
-}
+Clark, R.N., and Roush, T.L., 1984. Reflectance Spectroscopy: Quantitative Analysis Techniques for Remote Sensing Applications. J. Geophys. Res. 89, 6329-6340.
+  }
 \value{
 A list with the following arguments:
   \item{wave}{a vector of the wavelengths for the trimmed spectra.}
