@@ -20,14 +20,14 @@ chBLCext<- function(spectra, type = c("R", "A"), wav, ...){
   # if absorbance instead take the inverse to find the CH points
   if (type == "A"){X <- 1/X}
   
-  cHullFun <- function(x, wav, interpol) {
+  cHullFun <- function(x, wav) {
     cHull <- sort(chull(c(wav[1] - 1, wav, wav[length(wav)] + 1), c(0, x, 0)))
     cHull <- cHull[-c(1, length(cHull))] - 1
     cont <- approx(x = wav[cHull], y = x[cHull], xout = wav, method = "linear")$y
     return(cont)
   }
   
-  cont <- cHullFun(X, wav, interpol)
+  cont <- cHullFun(X, wav)
   
   if (type == "A"){ 
     # substraction - absorbance (Fig. 5 Clark & Roush (1984))
