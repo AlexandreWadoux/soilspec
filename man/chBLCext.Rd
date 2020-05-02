@@ -61,7 +61,7 @@ upper <- 2267
 # spectrum trimming
 montDiog1 <- trimSpec(montRef,
                        wavlimits = range(lower:upper))
-montDiog1CR <- chBLCext(spectra = montDiog1, wav = wavelength, type = 'R')
+montDiog1CR <- chBLCext(spectra = montDiog1, wav = as.numeric(colnames(montDiog1)), type = 'R')
 
 # plot the region of interest and the fitted convex hull to the continuum removed spectra
 plot(seq(from = lower, to = upper, by = 1), montDiog1[1,],
