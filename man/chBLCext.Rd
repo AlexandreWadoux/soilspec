@@ -2,7 +2,7 @@
 \alias{chBLCext}
 \title{Convex hull function used for regions of interest}
 \usage{
-chBLCext(spectra, lower, upper, type, ...)
+chBLCext(spectra, type, wav, ...)
 }
 \arguments{
   \item{spectra}{Pre-processed spectrum for the region of interest. Only one spectrum can be provided.}
@@ -61,7 +61,7 @@ upper <- 2267
 # spectrum trimming
 montDiog1 <- trimSpec(montRef,
                        wavlimits = range(lower:upper))
-montDiog1CR <- chBLCExt(spectra = montDiog1, lower = lower, upper = upper, type = 'R')
+montDiog1CR <- chBLCext(spectra = montDiog1, wav = wavelength, type = 'R')
 
 # plot the region of interest and the fitted convex hull to the continuum removed spectra
 plot(seq(from = lower, to = upper, by = 1), montDiog1[1,],
