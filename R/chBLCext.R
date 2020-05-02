@@ -1,14 +1,14 @@
 #' @title chBLCext
 #'
-#' @description Fitting a Convex hull function for regions of interest
+#' @description Fitting a Convex hull for regions of interest
 #'
-#' @param spectra A matrix of spectra
+#' @param a spectrum 
 #'
 #' @return the fitted convex hull
 #'
 #' @export
 #------------------------------- Info ------------------------------------------
-#  Function inspired by the 'continuumRemoval' function of the prospectr package
+# Function inspired by the 'continuumRemoval' function of the prospectr package
 # Author: Alexandre Wadoux            
 #
 # Date:        April 2020
