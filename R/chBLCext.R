@@ -7,7 +7,12 @@
 #' @return the fitted convex hull
 #'
 #' @export
-
+#------------------------------- Info ------------------------------------------
+#  Function inspired by the 'continuumRemoval' function of the prospectr package
+# Author: Alexandre Wadoux            
+#
+# Date:        April 2020
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 chBLCext<- function(spectra, type = c("R", "A"), wav, ...){
   
   X <- spectra
