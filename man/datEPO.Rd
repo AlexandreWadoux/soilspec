@@ -13,7 +13,7 @@ A list called `datEPO` with four objects:
 \usage{data("datEPO")}
 
 \details{
-Subset of the Geeves soil survey data in which the soil samples were scanned at different level of water content. Data for the Section 'Removing soil moisture (EPO)'
+Subset of the Geeves soil survey data in which the soil samples were scanned at different level of water content. 
 
 }
 \source{
