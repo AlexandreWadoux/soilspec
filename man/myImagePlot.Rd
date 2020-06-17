@@ -24,4 +24,4 @@ myImagePlot(diagM)
 Return a plot the input matrix.
 }
 \references{
-Mehmood, T., Liland, K. H., Snipen, L., \& Saebo, S. (2012). A review of variable selection methods in partial least squares regression. Chemometrics and Intelligent Laboratory Systems, 118, 62-69.
+Mehmood, T., Liland, K. H., Snipen, L., & Saebo, S. (2012). A review of variable selection methods in partial least squares regression. Chemometrics and Intelligent Laboratory Systems, 118, 62-69.
