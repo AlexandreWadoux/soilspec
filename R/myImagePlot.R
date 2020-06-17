@@ -9,7 +9,8 @@
 #' @export
 
 
-
+# author http://www.phaget4.org/R/image_matrix.html
+# or author Mehmood et al., (2012).
 # ----- Define a function for plotting a matrix ----- #
 myImagePlot <- function(x, ...){
 
