@@ -24,5 +24,4 @@ myImagePlot(diagM)
 Return a plot the input matrix.
 }
 \references{
-Minasny, B., McBratney, A.B., Bellon-Maurel, V., Roger, J.M., Gobrecht, A., Ferrand, L., & Joalland, S. (2011). Removing the effect of soil moisture from NIR diffuse reflectance spectra for the prediction of soil organic carbon. Geoderma, 167, 118-124.
-}
+Mehmood, T., Liland, K. H., Snipen, L., \& Saebo, S. (2012). A review of variable selection methods in partial least squares regression. Chemometrics and Intelligent Laboratory Systems, 118, 62-69.
