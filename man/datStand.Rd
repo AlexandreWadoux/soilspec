@@ -1,6 +1,6 @@
 \name{datStand}
 \alias{datStand}
-\title{Vis-NIR spectra of a standard material}
+\title{Standard vis-NIR spectra of a soil sample}
 \usage{
 data('datStand')
 }
@@ -9,7 +9,7 @@ Vis-NIR spectra of a standard material as described in Ben-Dor et al., (2015). T
 
 \itemize{
    \item{\bold{CSIRO.s}: benchmark LB spectra, data frame with two rows and 2151 columns.}
-   \item{\bold{ISS_slaves}: spectra collected from two instruments, data frame with two rows and 2151 columns.}
+   \item{\bold{ISS_subordinates}: spectra collected from two instruments, data frame with two rows and 2151 columns.}
    \item{\bold{asd.soil}: two soil samples scans by an ASD instrument, data frame with two rows and 2151 columns.}
    \item{\bold{se.soil}: two soil samples scans by an SE instrument, data frame with two rows and 2151 columns.}
 }
