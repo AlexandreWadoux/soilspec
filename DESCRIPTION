@@ -4,8 +4,8 @@ Title: The soilspec R package
 Version: 0.1.0
 Author: Alexandre M.J.-C. Wadoux
 Maintainer: Alexandre Wadoux <alexandre.wadoux@sydney.edu.au>
-Description: Functions and data for the book 'Soil Spectral Inference: A Workbook With R'.
-License: GPL
+Description: Functions and data for the book 'Soil Spectral Inference With R'.
+License: MIT + file LICENSE
 Depends: R (>= 3.5.0)
 Encoding: UTF-8
 LazyData: true

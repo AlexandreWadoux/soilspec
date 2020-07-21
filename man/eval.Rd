@@ -2,7 +2,7 @@
 \alias{eval}
 \title{Accuracy measures for quantitative or categorical variables}
 \usage{
-eval(obs, pred, obj = 'quant', ...)
+eval(obs, pred, obj, ...)
 }
 \arguments{
   \item{obs}{A vector of measured values or classes.}

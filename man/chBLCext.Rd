@@ -42,7 +42,7 @@ wavelength <- seq(350, 2500, by = 1)
 
 trimSpec <- function(spectra, wavlimits){
   datawavs <- as.numeric(colnames(spectra))
-  limits <- which(datawavs %in% wavlimits)
+  limits <- which(is.element(datawavs, wavlimits))
   keptIndex <- seq(limits[1], limits[2], 1)
   trimmedSpectra <- spectra[, keptIndex]
   keptNames <- datawavs[keptIndex]
@@ -60,7 +60,8 @@ upper <- 2267
 
 # spectrum trimming
 montDiog1 <- trimSpec(montRef,
-                       wavlimits = range(lower:upper))
+                      wavlimits = range(lower:upper))
+
 montDiog1CR <- chBLCext(spectra = montDiog1, wav = as.numeric(colnames(montDiog1)), type = 'R')
 
 # plot the region of interest and the fitted convex hull to the continuum removed spectra
@@ -74,7 +75,9 @@ lines(seq(from = lower, to = upper, by = 1), montDiog1CR$continuum,
       col = "red")
 
 # band depth
-featureBd <- 1 - (montDiog1CR[[3]][which(montDiog1CR[[2]]==min(montDiog1CR[[2]]))]/montDiog1CR[[4]][which(montDiog1CR[[2]]==min(montDiog1CR[[2]]))])
+sCr <- montDiog1CR[[3]][which(montDiog1CR[[2]]==min(montDiog1CR[[2]]))]
+sL <- montDiog1CR[[4]][which(montDiog1CR[[2]]==min(montDiog1CR[[2]]))]
+featureBd <- 1 - sCr/sL
 featureBd
 
 }

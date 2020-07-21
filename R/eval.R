@@ -10,7 +10,7 @@
 #'
 #' @export
 
-eval <- function(obs, pred, obj){
+eval <- function(obs, pred, obj, ...){
 
   if(obj == 'quant'){
 
