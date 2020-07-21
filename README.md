@@ -8,18 +8,20 @@
 
 # Soil Spectral Inference with R
 
+Data and functions for the book *Soil Spectral Inference with R* - *Analysing Digital Soil Spectra Using the R Programming Environment*. 
+
 ## Short description
 ### Functions
 
-* `chBLCext`: function to fit a convex hull to the region of interest. The regions of interest are absorbance (or reflectance) of some secondary clay minerals or iron oxides from vis-NIR spectra. The function contains three arguments and returns five values. The function argument description is obtained by `?soilspec::chBLCext`.
+* `chBLCext`: function to fit a convex hull to the region of interest. The regions of interest are absorbance or reflectance of some secondary clay minerals or iron oxides from vis-NIR spectra. The function contains three arguments and returns five values. The function argument description is obtained by `?soilspec::chBLCext`.
 
-* `eval`: function to compute of a set of accuracy measures between observed and predicted continuous values or classes. The user must specify the type of variable, either quantitative or categorical. For both types of variable, a set of accuracy measures is reported. The list of accuracy measures is provided by writting `?soilspec::eval`. The function contains three arguments and return a number of values equals to the number of accuracy measures computed. 
+* `eval`: function to compute of a set of accuracy measures between observed and predicted continuous values or classes. The user must specify the type of variable, either quantitative or categorical. For both types of variable, a set of accuracy measures is reported. The list of accuracy measures is provided by writing `?soilspec::eval`. The function contains three arguments and returns a number of values equal to the number of accuracy measures computed. 
 
-* `myImagePlot`: function to plot an image from a projection matrix. This simple function takes as single argument a matrix and returns a plot of this matrix. The functions details are accessed by writting `?soilspec::myImagePlot`.
+* `myImagePlot`: function to plot an image from a matrix. This simple function takes as single argument a matrix and returns a plot of this matrix. The functions details are accessed by writing `?soilspec::myImagePlot`.
 
-* `spectra2colour`: this function converts spectra reflectance into RGB and Munsell colours. The functions takes a single argument as input, a matrix or data frame of the spectra, and returns the colour for both RBG and Munsell charts. The function returns a data frame where each row is the spectra followed by the colours. The function description is obtained by `?soilspec::spectra2colour`.
+* `spectra2colour`: this function converts spectra reflectance into RGB and Munsell colours. The functions take a single argument as input, a matrix or data frame of the spectra, and returns the colour for both RBG and Munsell charts. The function returns a data frame where each row is the spectrum followed by the colour. The function description is obtained by `?soilspec::spectra2colour`.
 
-* `css`: function to determine the optimal number of spectra to be sent to the laboratory for soil analysis. This function works by comparing the probability density function (pdf) of the population to that of the sample set to asses the representativeness of the sample. The two pdfs are compared based on the mean euclidean distance (msd). The functions contains eight arguments and returns three values. The function argument description is obtained by `?soilspec::css`. 
+* `css`: function to determine the optimal number of spectra to be sent to the laboratory for soil analysis. This function works by comparing the probability density function (pdf) of the population to that of the sample set to assess the representativeness of the sample. The two pdfs are compared based on the mean Euclidean distance (msd). The functions contains eight arguments and returns three values. The function argument description is obtained by `?soilspec::css`. 
 
 ### Datasets
 
