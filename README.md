@@ -27,7 +27,7 @@ devtools::install_github("AlexandreWadoux/soilspec")
 
 * `chBLCext`: function to fit a convex hull to the region of interest. The regions of interest are absorbance or reflectance of some secondary clay minerals or iron oxides from vis-NIR spectra. The function contains three arguments and returns five values. The function argument description is obtained by `?soilspec::chBLCext`.
 
-* `eval`: function to compute of a set of accuracy measures between observed and predicted continuous values or classes. The user must specify the type of variable, either quantitative or categorical. For both types of variable, a set of accuracy measures is reported. The list of accuracy measures is provided by writing `?soilspec::eval`. The function contains three arguments and returns a number of values equal to the number of accuracy measures computed. 
+* `eval`: function to compute of a set of accuracy measures between observed and predicted continuous values or classes. The user must specify the type of variable, either quantitative or categorical. For both types of variable, a set of accuracy measures is reported. The list of accuracy measures is provided by writing `?soilspec::eval`. The function contains three arguments and returns a number of accuracy measures.
 
 * `myImagePlot`: function to plot an image from a matrix. This simple function takes as single argument a matrix and returns a plot of this matrix. The functions details are accessed by writing `?soilspec::myImagePlot`.
 
