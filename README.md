@@ -38,6 +38,11 @@ Data and functions for the book *Soil Spectral Inference with R* - *Analysing Di
 
 * `specSoilCol`: Small set of vis-NIR spectra with value of the soil horizon and soil type. In addition to the spectra, pictures of the soil samples were made and provided in the book. This enables the comparison of the colour retrieved from the spectra and that from the picture of the soil samples. The documentation is provided in `?soilspec::specSoilCol`. 
 
+#### References 
+Ben Dor E, Ong C, Lau IC (2015) Reflectance measurements of soils in the laboratory: Standards and protocols. Geoderma 245-246:112–124
+
+Geeves GW, Cresswell HP, Murphy BW et al (1994) Physical, chemical and morphological properties of soils in the wheat-belt of southern NSW and northern Victoria. NSW Department of Conservation; Land Management/CSIRO Division of Soils Occasional Report, CSIRO, Australia
+
 ## Installation
 The `soilspec` package is available in this GitHub repository only. The package is likely to be updated in the future. It is recommended to re-install the package is you didn't use it for a long time. If any issue, send an email to [Alexandre Wadoux](mailto:alexandre.wadoux@sydney.edu.au) or open an [issue](https://github.com/AlexandreWadoux/soilspec/issues). 
 
