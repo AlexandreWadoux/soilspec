@@ -37,7 +37,7 @@ devtools::install_github("AlexandreWadoux/soilspec")
 
 ### Datasets
 
-* `datEPO`: subset of the Geeves soil survey data in which the soil samples were scanned with different level of water content. The dataset is a list with four data frames. Description of each data frame is provided in the R documentation by writting `?soilspec::datEPO`.  
+* `datEPO`: subset of the Geeves soil survey data in which the soil samples were scanned with different level of moisture content. The dataset is a list with four data frames. Description of each data frame is provided in the R documentation by writting `?soilspec::datEPO`.  
 
 * `datsoilspc`: spectra and associated values of laboratory analysed soil properties from the soil samples described in Geeves et al., (1994). The data provided is a data frame with five columns and 391 rows. The first four columns contain values of the clay, silt, sand and total carbon. The fifth columns is a matrix with the infrared spectra. The documentation can be accessed by writting `?soilspec::datsoilspc`. 
 
