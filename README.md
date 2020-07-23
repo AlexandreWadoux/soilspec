@@ -11,6 +11,17 @@
 
 Data and functions for the book *Soil Spectral Inference with R* - *Analysing Digital Soil Spectra Using the R Programming Environment*. 
 
+## Installation
+The `soilspec` package is available in this GitHub repository only. The package is likely to be updated in the future. It is recommended to re-install the package is you didn't use it for a long time. If any issue, send an email to [Alexandre Wadoux](mailto:alexandre.wadoux@sydney.edu.au) or open an [issue](https://github.com/AlexandreWadoux/soilspec/issues). 
+
+The package is installed using the following command. 
+```R
+# check if the devtools package is already installed
+if (!require("devtools")) install.packages("devtools")
+
+# install the soilspec package from GitHub
+devtools::install_github("AlexandreWadoux/soilspec")
+```
 ## Short description
 ### Functions
 
@@ -43,17 +54,6 @@ Ben Dor E, Ong C, Lau IC (2015) Reflectance measurements of soils in the laborat
 
 Geeves GW, Cresswell HP, Murphy BW et al (1994) Physical, chemical and morphological properties of soils in the wheat-belt of southern NSW and northern Victoria. NSW Department of Conservation; Land Management/CSIRO Division of Soils Occasional Report, CSIRO, Australia
 
-## Installation
-The `soilspec` package is available in this GitHub repository only. The package is likely to be updated in the future. It is recommended to re-install the package is you didn't use it for a long time. If any issue, send an email to [Alexandre Wadoux](mailto:alexandre.wadoux@sydney.edu.au) or open an [issue](https://github.com/AlexandreWadoux/soilspec/issues). 
-
-The package is installed using the following command. 
-```R
-# check if the devtools package is already installed
-if (!require("devtools")) install.packages("devtools")
-
-# install the soilspec package from GitHub
-devtools::install_github("AlexandreWadoux/soilspec")
-```
 ## Licence 
 MIT License
 
