@@ -21,7 +21,7 @@ eval <- function(obs, pred, obj, ...){
     RMSE <-   round(sqrt(mean((pred - obs)^2, na.rm = TRUE)), digits = 2)
 
     # Pearson's correlation squared
-    r2 <-  round((cor(pred, obs, method = 'spearman', use = 'pairwise.complete.obs')^2), digits = 2)
+    r2 <-  round((cor(pred, obs, method = 'pearson', use = 'pairwise.complete.obs')^2), digits = 2)
 
     # coefficient of determination
     SSE <- sum((pred - obs) ^ 2, na.rm = T)
