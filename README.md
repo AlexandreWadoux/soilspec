@@ -71,4 +71,4 @@ Help are obtained using the R documentation provided in the package `?soilspec::
 The author can be contacted by email: alexandre.wadoux@sydney.edu.au. 
 
 ## Reference
-Wadoux et al., ---
+Wadoux A.M.J.C., Malone B., Minasny B., Fajardo M., McBratney A.B. (2021) Soil Spectral Inference with R. Progress in Soil Science. Springer, Cham. https://doi.org/10.1007/978-3-030-64896-1
